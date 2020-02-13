@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Navigation.Page3"
+             Title="Page 3">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" 
+                HorizontalOptions="Center">
+            <Label Text="The Wizard knows all." TextColor="Black" FontSize="Title" FontAttributes="Italic, Bold"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Image Source="https://i.imgur.com/0vDJu2U.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+            
+            <Button Text="Take me back I can't take it anymore!" Clicked="Button_Clicked" ></Button>
+            <Button Text="Lets go ahead and reset history" Clicked="Button_Clicked_1" ></Button>
+           
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
