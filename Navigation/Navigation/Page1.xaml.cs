@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,12 +17,12 @@ namespace Navigation
             InitializeComponent();
         }
 
-       public void OnClick(object sender, EventArgs e)
+       public void OnClick(object sender, EventArgs e) //button sends you to page 2
         {
             Navigation.PushAsync(new Page2());
         }
 
-        public void Button_Clicked_1(object sender, EventArgs e)
+        public void Button_Clicked_1(object sender, EventArgs e) //button sends you to page 3
         {
             Navigation.PushAsync(new Page3());
         }
