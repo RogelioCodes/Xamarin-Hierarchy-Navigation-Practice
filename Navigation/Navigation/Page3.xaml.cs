@@ -16,12 +16,12 @@ namespace Navigation
         {
             InitializeComponent();
         }
-        public void Button_Clicked(object sender, EventArgs e)
+        public void Button_Clicked(object sender, EventArgs e)//sends you back
         {
             Navigation.PopAsync();
         }
 
-        public void Button_Clicked_1(object sender, EventArgs e)
+        public void Button_Clicked_1(object sender, EventArgs e)//sends you to root
         {
             Navigation.PopToRootAsync();
         }
