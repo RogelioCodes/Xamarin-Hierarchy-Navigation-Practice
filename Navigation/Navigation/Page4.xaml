@@ -4,18 +4,19 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Navigation.Page1"
-             Title="A dog?">
+             x:Class="Navigation.Page4"
+             Title="Location: Still unknown">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Center" 
+        <StackLayout VerticalOptions="Center" BackgroundColor="Yellow"
                 HorizontalOptions="Center">
-            <Label Text="Help me traveler, we must get to the wizard. He is our only hope!" TextColor="Black" FontSize="Title" FontAttributes="Italic, Bold"
+            <Label Text="" TextColor="Black" FontSize="Title" FontAttributes="Italic, Bold"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
-            <Image Source="https://i.imgur.com/pEXdILa.jpg" VerticalOptions="Center" HorizontalOptions="Center"/>
-            <Button Text="I shall. Let us go to the Wizard!" Clicked="OnClick"></Button>
-            <Button Text="I am the wizard." Clicked="Button_Clicked_1"></Button>
-    
+           
+
+            <Button Text="The wizard popasync!" Clicked="Button_Clicked" ></Button>
+            <Button Text="The wizard pop to root!" Clicked="Button_Clicked_1" ></Button>
+
 
 
         </StackLayout>

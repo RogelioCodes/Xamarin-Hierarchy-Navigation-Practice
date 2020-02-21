@@ -14,3 +14,4 @@ C:\Users\Rogelio\source\repos\CS481_HW3_RogelioCordova\Navigation\Navigation\obj
 C:\Users\Rogelio\source\repos\CS481_HW3_RogelioCordova\Navigation\Navigation\obj\Debug\netstandard2.0\Page1.xaml.g.cs
 C:\Users\Rogelio\source\repos\CS481_HW3_RogelioCordova\Navigation\Navigation\obj\Debug\netstandard2.0\Page2.xaml.g.cs
 C:\Users\Rogelio\source\repos\CS481_HW3_RogelioCordova\Navigation\Navigation\obj\Debug\netstandard2.0\Page3.xaml.g.cs
+C:\Users\Rogelio\source\repos\CS481_HW3_RogelioCordova\Navigation\Navigation\obj\Debug\netstandard2.0\Page4.xaml.g.cs

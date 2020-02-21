@@ -5,17 +5,17 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Navigation.Page2"
-             Title="Page 2">
+             Title="The Home of the Wizard">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center" 
                 HorizontalOptions="Center">
-            <Label Text="Greetings traveler, I am the mighty wizard!" TextColor="Black" FontSize="20" FontAttributes="Italic, Bold"
+            <Label Text="Greetings traveler! I am the mighty Wizard!" TextColor="Black" FontSize="20" FontAttributes="Italic, Bold"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
             <Image Source="https://i.imgur.com/corF6zO.jpg" VerticalOptions="Center" HorizontalOptions="Center"/>
             <Button Text="Take me back I can't take it anymore!" Clicked="Button_Clicked_1" ></Button>
             <Button Text="You are no Wizard. You're a fraud." Clicked="Button_Clicked_2" ></Button>
-            <Button Text="What does the Wizard know?" Clicked="Button_Clicked" ></Button>
+            <Button Text="What does the Wizard know?" Clicked="Button_Clicked"  ></Button>
             
             
 
